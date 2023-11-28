@@ -1,4 +1,4 @@
-s = "anna"
+s = input("Zadaj slovo :")
 
 def is_palindrome(s):
     x = list(s)
