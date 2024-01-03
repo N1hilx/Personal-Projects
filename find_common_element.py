@@ -6,7 +6,7 @@ def list_intersection_3(l1, l2, l3):
     return spies
 
 
-# ukázka zavolání funkce
+
 
 def main():
     animals = ['kočka', 'pes']
