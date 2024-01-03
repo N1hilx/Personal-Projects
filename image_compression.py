@@ -1,6 +1,6 @@
 import numpy as np
 
-# Túto funkciu implementujte
+
 def rm_edge(ft_arr: np.ndarray, n: int):
     ft_arr[:n] = 0  # First n rows set to 0
     ft_arr[-n:] = 0 # Last n rows set to 0
@@ -9,7 +9,7 @@ def rm_edge(ft_arr: np.ndarray, n: int):
 
     return ft_arr
 
-# Testy:
+# Tests:
 arr = np.array([[1, 1, 1, 1, 1],
                 [1, 1, 1, 1, 1],
                 [1, 1, 1, 1, 1],
