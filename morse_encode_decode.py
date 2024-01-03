@@ -7,7 +7,7 @@ morse = {}
 
 for key, value in translation_dict.items():
     alphabet[key] = value
-    morse[value] = key  # Corrected: Use morse dictionary for decoding
+    morse[value] = key  
 
 def encode(plaintext: str) -> str:
     plaintext = plaintext.lower()
