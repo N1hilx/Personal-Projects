@@ -1,6 +1,6 @@
 import numpy as np
 
-# implement this
+
 def bgr_to_cmy(bgr_image):
     # Value conversion
     cmy_image = np.zeros_like(bgr_image)
